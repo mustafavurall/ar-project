@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Projesi - Web Sitesi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hover-grow:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-indigo-700 p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-semibold hover:text-indigo-300">YMGK</a>
+            <div class="space-x-6">
+                <a href="https://github.com/username" target="_blank" class="text-white text-lg font-medium hover:text-indigo-300">
+                    GitHub
+                </a>
+                <a href="https://trello.com/username" target="_blank" class="text-white text-lg font-medium hover:text-indigo-300">
+                    Trello
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-indigo-500 text-white text-center py-16">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-4">Artırılmış Gerçeklik İle Gökyüzünde Matematik Avı</h1>
+            <p class="text-xl mb-6">Geliştirdiğimiz AR Projesini Keşfedin</p>
+            <div class="flex justify-center space-x-4">
+                <img src="./images/projectCard1.jpeg" alt="AR Projesi Görseli" class="rounded-lg shadow-lg hover-grow w-64">
+                <img src="./images/projectCard2.jpeg" alt="AR Projesi Görseli" class="rounded-lg shadow-lg hover-grow w-64">
+            </div>
+        </div>
+    </section>
+
+    <!-- Proje Özeti -->
+    <section class="py-16 px-4 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-indigo-600 mb-6">Proje Özeti</h2>
+            <p class="text-lg max-w-3xl mx-auto">
+                Bu projede, Unity ve Vuforia kullanarak artırılmış gerçeklik deneyimi geliştirdik. Kullanıcıların çevreleriyle etkileşime girmelerini sağlamak amacıyla farklı senaryolar tasarladık ve gerçek dünya nesneleriyle sanal öğeleri birleştirdik.
+            </p>
+        </div>
+    </section>
+
+    <!-- Hakkımda -->
+    <section class="py-16 px-4 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-indigo-600 mb-6">Hakkımda</h2>
+            <div class="flex justify-center mb-6">
+                <img src="./images/Mustafa Vural.png" alt="Profil Resmi" class="rounded-full w-32 h-32 border-4 border-indigo-600 hover-grow">
+            </div>
+            <p class="text-lg max-w-2xl mx-auto mb-4">
+                Merhaba! Ben Mustafa Vural, Yazılım Mühendisliği öğrencisiyim. 210541068 numaralı öğrenciyim. Bu projede artırılmış gerçeklik alanında deneyim kazandım ve Unity ile Vuforia kullanarak etkileyici bir proje geliştirdim.
+            </p>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-indigo-700 text-white text-center py-4">
+        <p>© 2024 Mustafa Vural. YMGK.</p>
+    </footer>
+
+</body>
+</html>
